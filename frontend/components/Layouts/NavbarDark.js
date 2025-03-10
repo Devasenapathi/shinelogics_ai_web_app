@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 
-import whiteLogo from "../../public/images/logo-white.png";
+import logo from "../../public/images/logo-white-trans.png";
 
 const NavbarDark = () => {
   // Add active class
@@ -41,15 +41,9 @@ const NavbarDark = () => {
     <>
       <div id="navbar" className="navbar-area dark-navbar">
         <nav className="navbar navbar-expand-md">
-          <div className="container-fluid">
+        <div className="container">
             <Link href="/" className="navbar-brand">
-              <Image
-                src={whiteLogo}
-                className="white-logo"
-                alt="logo"
-                width={150}
-                height={40}
-              />
+              <Image src={logo} alt="logo" width={150} height={40} />
             </Link>
 
             {/* Toggle navigation */}
@@ -72,14 +66,14 @@ const NavbarDark = () => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link
-                    href="#"
+                    href="/"
                     className="nav-link"
                     onClick={(e) => e.preventDefault()}
                   >
-                    Home <i className="fa-solid fa-angle-down"></i>
+                    Home
                   </Link>
 
-                  <ul className="dropdown-menu mega-dropdown-menu">
+                  {/* <ul className="dropdown-menu mega-dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/"
@@ -297,8 +291,20 @@ const NavbarDark = () => {
                         Cyber Security Agency <span className="new">New</span>
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
+
+                <li className="nav-item">
+                  <Link
+                    href="/about/"
+                    className={`nav-link ${
+                      currentPath == "/about/" && "active"
+                    }`}
+                  >
+                    About us
+                  </Link>
+                </li>
+
 
                 <li className="nav-item">
                   <Link
@@ -370,12 +376,10 @@ const NavbarDark = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/about/"
-                    className={`nav-link ${
-                      currentPath == "/about/" && "active"
-                    }`}
-                  >
-                    About us
+                  href="#"
+                  className="nav-link"
+                  onClick={(e)=>e.preventDefault()}>
+                    Technology
                   </Link>
                 </li>
 
@@ -424,6 +428,15 @@ const NavbarDark = () => {
                       </Link>
                     </li>
                   </ul>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                  href="#"
+                  className="nav-link"
+                  onClick={(e)=>e.preventDefault()}>
+                  Careers
+                  </Link>
                 </li>
 
                 <li className="nav-item">
@@ -561,7 +574,7 @@ const NavbarDark = () => {
                   </ul>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -615,7 +628,7 @@ const NavbarDark = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link
@@ -629,11 +642,11 @@ const NavbarDark = () => {
                 </li>
               </ul>
 
-              <div className="others-options">
+              {/* <div className="others-options">
                 <Link href="/contact-us/" className="btn btn-primary">
                   Get Started
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>

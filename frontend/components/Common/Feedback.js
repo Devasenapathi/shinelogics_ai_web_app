@@ -16,22 +16,29 @@ import leftQuote from '../../public/images/left-quote-white.png';
 
 const feedbacskData = [
   {
-    name: "John Smith",
-    designation: "CEO & Founder, Envato",
+    name: "Parthiban Kandhasamy",
+    designation: "CEO @ Keerthi Pumps India Pvt. Ltd.",
     feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    "ShineLogics' ERP solution has elevated our business operations to new heights. Their responsive support and ongoing service have greatly enhanced our efficiency. We truly value the expertise and dedication they bring to every project.",
   },
   {
-    name: "Oliver Smith",
-    designation: "React JS Specialist",
+    name: "",
+    designation: "Top Quick Solution Corp",
     feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    "We manage vast amounts of data, generating up to 4GB of logs daily. ShineLogics delivered a simple, cost-effective solution to efficiently handle and process this data for legacy purposes. Their solution has saved us valuable time and resources. We truly appreciate ShineLogics for their outstanding support and expertise",
   },
   {
-    name: "Thomas John",
-    designation: "Angular JS Specialist",
+    name: "Poovai Selvaraj",
+    designation: "Co-founder of Varam.app",
     feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    "ShineLogics has been an incredible partner in bringing Varam, a trusted matrimony platform, to life. Their expertise in app development and focus on creating a user-friendly experience have allowed us to offer a seamless way for individuals to find meaningful alliances. ShineLogics provided continuous support and innovative solutions, ensuring Varam meets the unique needs of those seeking marriage and lifelong partnerships. Thanks to their dedication and vision, Varam has become a go-to platform, and we’re excited to continue growing it together.",
+  },
+
+  {
+    name: "",
+    designation: "The Hindu IT Team",
+    feedbacskText:
+    "ShineLogics has played a key role in upskilling our team with the latest technologies. The training in Node.js and Express.js empowered us to build a practical, real-time news app that showcases our new capabilities. We’re excited about the future, knowing that our team is now equipped to handle complex digital challenges with innovative solutions.",
   },
 ];
 

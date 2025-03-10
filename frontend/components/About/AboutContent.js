@@ -42,34 +42,41 @@ const AboutContent = () => {
                 <div className="section-title">
                   <h2>About Us</h2>
                   <p>
-                    At Shinelogics, we pride ourselves on being a pioneering
-                    Product Development as a Service (PDaaS) company.Our primary
-                    goal is to empower businesses by delivering innovative
-                    solutions tailored to address the unique challenges that
-                    arise in a rapidly evolving technological landscape.In an
-                    age where digital transformation is crucial to staying
-                    competitive, we offer comprehensive strategies that help
-                    businesses scale effectively and efficiently.By leveraging
-                    cutting-edge technology, we assist our clients in navigating
-                    complex challenges and capturing new opportunities.
+                    At ShineLogics, we’re passionate about being your trusted
+                    partner in Product Development as a Service (PDaaS). Our
+                    mission is simple: to empower your business with innovative,
+                    custom solutions that address the unique challenges you face
+                    in an ever-changing tech landscape. We understand the
+                    importance of digital transformation, and we’re here to help
+                    you scale effectively, stay ahead of the competition, and
+                    unlock new opportunities with cutting-edge technology. Your
+                    success is our priority, and we’re committed to guiding you
+                    through every step of the journey.
                   </p>
                 </div>
 
                 <div className="about-text">
                   <h4>Who We Are</h4>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis..
+                    At ShineLogics, we empower businesses with innovative IT
+                    solutions and tailored digital transformations. From product
+                    development to ERP and big data, we help you streamline
+                    operations and drive growth with secure, customizable
+                    systems. Our mission is to simplify your journey into the
+                    digital age, unlocking new opportunities for success.
                   </p>
                 </div>
 
                 <div className="about-text">
                   <h4>Our History</h4>
                   <p>
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the.
+                    ShineLogics began in 2012 as a training institute,
+                    transitioning to a service company with 30 employees by
+                    2015. By 2018, we expanded into product development with a
+                    team of 50, and in 2022, we introduced PDAAS with 100
+                    employees. Looking forward to 2025, we aim to revolutionize
+                    our PDAAS and services with AI-driven solutions for enhanced
+                    innovation and growth.
                   </p>
                 </div>
 
@@ -78,20 +85,31 @@ const AboutContent = () => {
                   <ul>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                      Lead Digital Transformation - Lead digital transformation
+                      by leveraging IoT, big data, and mobile technologies.
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
+                      Deliver Seamless and Scalable ERP Solutions - Provide
+                      scalable, user-friendly ERP systems to streamline business
+                      operations.
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text. It has roots in a piece of classical Latin
-                      literature.
+                      Optimize Data Engineering and Analytics - Unlock valuable
+                      insights through tailored data engineering and analytics
+                      solutions.
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle-check"></i>
+                      Enhance Mobility and User Experience - Develop
+                      high-performance mobile apps that enhance business
+                      mobility and user experience.
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-circle-check"></i>
+                      Promote Sustainable Business Growth - Enable sustainable
+                      business growth with advanced, cost-effective solutions.
                     </li>
                   </ul>
                 </div>

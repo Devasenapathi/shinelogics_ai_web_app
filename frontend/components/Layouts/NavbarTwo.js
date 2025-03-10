@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 
-import logo from "../../public/images/logo.png";
+import logo from "../../public/images/logo-white-trans.png";
 import whiteLogo from "../../public/images/logo-white.png";
 
 const NavbarTwo = () => {
@@ -42,22 +42,9 @@ const NavbarTwo = () => {
     <>
       <div id="navbar" className="navbar-area navbar-style-2">
         <nav className="navbar navbar-expand-md navbar-light">
-          <div className="container-fluid">
+        <div className="container">
             <Link href="/" className="navbar-brand">
-              <Image
-                src={logo}
-                className="black-logo"
-                alt="logo"
-                width={150}
-                height={40}
-              />
-              <Image
-                src={whiteLogo}
-                className="white-logo"
-                alt="logo"
-                width={150}
-                height={40}
-              />
+              <Image src={logo} alt="logo" width={150} height={40} />
             </Link>
 
             {/* Toggle navigation */}
@@ -80,14 +67,14 @@ const NavbarTwo = () => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link
-                    href="#"
+                    href="/"
                     className="nav-link"
                     onClick={(e) => e.preventDefault()}
                   >
-                    Home <i className="fa-solid fa-angle-down"></i>
+                    Home
                   </Link>
 
-                  <ul className="dropdown-menu mega-dropdown-menu">
+                  {/* <ul className="dropdown-menu mega-dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/"
@@ -305,8 +292,20 @@ const NavbarTwo = () => {
                         Cyber Security Agency <span className="new">New</span>
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
+
+                <li className="nav-item">
+                  <Link
+                    href="/about/"
+                    className={`nav-link ${
+                      currentPath == "/about/" && "active"
+                    }`}
+                  >
+                    About us
+                  </Link>
+                </li>
+
 
                 <li className="nav-item">
                   <Link
@@ -378,12 +377,10 @@ const NavbarTwo = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/about/"
-                    className={`nav-link ${
-                      currentPath == "/about/" && "active"
-                    }`}
-                  >
-                    About us
+                  href="#"
+                  className="nav-link"
+                  onClick={(e)=>e.preventDefault()}>
+                    Technology
                   </Link>
                 </li>
 
@@ -432,6 +429,15 @@ const NavbarTwo = () => {
                       </Link>
                     </li>
                   </ul>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                  href="#"
+                  className="nav-link"
+                  onClick={(e)=>e.preventDefault()}>
+                  Careers
+                  </Link>
                 </li>
 
                 <li className="nav-item">
@@ -569,7 +575,7 @@ const NavbarTwo = () => {
                   </ul>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -623,7 +629,7 @@ const NavbarTwo = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link
@@ -637,11 +643,11 @@ const NavbarTwo = () => {
                 </li>
               </ul>
 
-              <div className="others-options">
+              {/* <div className="others-options">
                 <Link href="/contact-us/" className="btn btn-primary">
                   Get Started
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>

@@ -66,14 +66,14 @@ const NavbarThree = () => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link
-                    href="#"
+                    href="/"
                     className="nav-link"
                     onClick={(e) => e.preventDefault()}
                   >
-                    Home <i className="fa-solid fa-angle-down"></i>
+                    Home
                   </Link>
 
-                  <ul className="dropdown-menu mega-dropdown-menu">
+                  {/* <ul className="dropdown-menu mega-dropdown-menu">
                     <li className="nav-item">
                       <Link
                         href="/"
@@ -291,8 +291,20 @@ const NavbarThree = () => {
                         Cyber Security Agency <span className="new">New</span>
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
+
+                <li className="nav-item">
+                  <Link
+                    href="/about/"
+                    className={`nav-link ${
+                      currentPath == "/about/" && "active"
+                    }`}
+                  >
+                    About us
+                  </Link>
+                </li>
+
 
                 <li className="nav-item">
                   <Link
@@ -364,12 +376,10 @@ const NavbarThree = () => {
 
                 <li className="nav-item">
                   <Link
-                    href="/about/"
-                    className={`nav-link ${
-                      currentPath == "/about/" && "active"
-                    }`}
-                  >
-                    About us
+                  href="#"
+                  className="nav-link"
+                  onClick={(e)=>e.preventDefault()}>
+                    Technology
                   </Link>
                 </li>
 
@@ -418,6 +428,15 @@ const NavbarThree = () => {
                       </Link>
                     </li>
                   </ul>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                  href="#"
+                  className="nav-link"
+                  onClick={(e)=>e.preventDefault()}>
+                  Careers
+                  </Link>
                 </li>
 
                 <li className="nav-item">
@@ -555,7 +574,7 @@ const NavbarThree = () => {
                   </ul>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -609,7 +628,7 @@ const NavbarThree = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link
@@ -623,11 +642,11 @@ const NavbarThree = () => {
                 </li>
               </ul>
 
-              <div className="others-options">
+              {/* <div className="others-options">
                 <Link href="/contact-us/" className="btn btn-primary">
                   Get Started
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>
