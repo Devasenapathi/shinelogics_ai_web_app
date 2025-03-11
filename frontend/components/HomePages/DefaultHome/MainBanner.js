@@ -51,7 +51,7 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
-                      WE'RE A NEXT-GENERATION AI SOLUTIONS PROVIDER DRIVING TRANSFORMATION THROUGH CUTTING-EDGE PRODUCT DEVELOPMENT
+                      WE'RE AN AI-DRIVEN PRODUCT DEVELOPMENT COMPANY
                     </h1>
                     
                     <p
