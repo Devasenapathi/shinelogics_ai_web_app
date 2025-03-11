@@ -53,8 +53,9 @@ const ContactForm = () => {
         <div className="contact-title">
           <h2>Get In Touch</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Have a project in mind? We’d love to hear from you! Reach out to us
+            today and let’s collaborate to turn your ideas into reality with
+            Shinelogics.
           </p>
         </div>
 

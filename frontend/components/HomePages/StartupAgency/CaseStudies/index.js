@@ -14,20 +14,20 @@ const CaseStudies = () => {
           <div className="section-title">
             <h2>Our Case Studies</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Explore our case studies to see how we’ve helped businesses
+              achieve success with innovative solutions.
             </p>
           </div>
 
           <div className="case-studies-tabs">
             <Tabs>
-              <TabList>
+              {/* <TabList>
                 <Tab>UX Process</Tab>
                 <Tab>User Experience</Tab>
                 <Tab>User Interface</Tab>
                 <Tab>Brand</Tab>
                 <Tab>Product</Tab>
-              </TabList>
+              </TabList> */}
 
               <TabPanel>
                 <UXProcess />

@@ -18,8 +18,8 @@ const Portfolio = () => {
           <div className="section-title">
             <h2>Our Portfolio</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Explore our portfolio to see how we’ve helped businesses achieve
+              success with innovative and impactful digital solutions.
             </p>
           </div>
         </div>
@@ -42,10 +42,15 @@ const Portfolio = () => {
 
                 <div className="portfolio-content">
                   <h3>
-                    <Link href="/portfolio/portfolio-details/">UX Workflow</Link>
+                    <Link href="/portfolio/portfolio-details/">
+                      UX Workflow
+                    </Link>
                   </h3>
 
-                  <Link href="/portfolio/portfolio-details/" className="link-btn">
+                  <Link
+                    href="/portfolio/portfolio-details/"
+                    className="link-btn"
+                  >
                     <i className="pe-7s-link"></i>
                   </Link>
                 </div>
@@ -66,10 +71,15 @@ const Portfolio = () => {
 
                 <div className="portfolio-content">
                   <h3>
-                    <Link href="/portfolio/portfolio-details/">Web Development</Link>
+                    <Link href="/portfolio/portfolio-details/">
+                      Web Development
+                    </Link>
                   </h3>
 
-                  <Link href="/portfolio/portfolio-details/" className="link-btn">
+                  <Link
+                    href="/portfolio/portfolio-details/"
+                    className="link-btn"
+                  >
                     <i className="pe-7s-link"></i>
                   </Link>
                 </div>
@@ -95,7 +105,10 @@ const Portfolio = () => {
                     <Link href="/portfolio/portfolio-details/">Web Design</Link>
                   </h3>
 
-                  <Link href="/portfolio/portfolio-details/" className="link-btn">
+                  <Link
+                    href="/portfolio/portfolio-details/"
+                    className="link-btn"
+                  >
                     <i className="pe-7s-link"></i>
                   </Link>
                 </div>
@@ -118,10 +131,15 @@ const Portfolio = () => {
 
                 <div className="portfolio-content">
                   <h3>
-                    <Link href="/portfolio/portfolio-details/">React Development</Link>
+                    <Link href="/portfolio/portfolio-details/">
+                      React Development
+                    </Link>
                   </h3>
 
-                  <Link href="/portfolio/portfolio-details/" className="link-btn">
+                  <Link
+                    href="/portfolio/portfolio-details/"
+                    className="link-btn"
+                  >
                     <i className="pe-7s-link"></i>
                   </Link>
                 </div>
@@ -147,7 +165,10 @@ const Portfolio = () => {
                     </Link>
                   </h3>
 
-                  <Link href="/portfolio/portfolio-details/" className="link-btn">
+                  <Link
+                    href="/portfolio/portfolio-details/"
+                    className="link-btn"
+                  >
                     <i className="pe-7s-link"></i>
                   </Link>
                 </div>
@@ -173,7 +194,10 @@ const Portfolio = () => {
                     <Link href="/portfolio/portfolio-details/">eCommerce</Link>
                   </h3>
 
-                  <Link href="/portfolio/portfolio-details/" className="link-btn">
+                  <Link
+                    href="/portfolio/portfolio-details/"
+                    className="link-btn"
+                  >
                     <i className="pe-7s-link"></i>
                   </Link>
                 </div>
@@ -194,10 +218,15 @@ const Portfolio = () => {
 
                 <div className="portfolio-content">
                   <h3>
-                    <Link href="/portfolio/portfolio-details/">UX for Mobile Apps</Link>
+                    <Link href="/portfolio/portfolio-details/">
+                      UX for Mobile Apps
+                    </Link>
                   </h3>
 
-                  <Link href="/portfolio/portfolio-details/" className="link-btn">
+                  <Link
+                    href="/portfolio/portfolio-details/"
+                    className="link-btn"
+                  >
                     <i className="pe-7s-link"></i>
                   </Link>
                 </div>

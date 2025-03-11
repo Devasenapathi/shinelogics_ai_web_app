@@ -10,7 +10,7 @@ const PortfolioDetails = () => {
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle="UX for Mobile Apps" BGImage="/images/page-banner2.jpg" />
+      <PageBanner pageTitle="The Hindu" BGImage="/images/page-banner2.jpg" />
 
       <PortfolioDetailsContent />
 

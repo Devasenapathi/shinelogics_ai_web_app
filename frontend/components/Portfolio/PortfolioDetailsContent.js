@@ -80,70 +80,68 @@ const PortfolioDetailsContent = () => {
           </div>
 
           <div className="portfolio-desc style-2">
-            <h3>We Provide Useful Services</h3>
+            <h3>Client Overview</h3>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim.
+              The Hindu, one of India's leading newspapers, has continuously
+              adapted to the digital age by enhancing its online presence. As
+              part of its ongoing efforts to stay competitive in the rapidly
+              changing digital landscape, The Hindu sought to upskill its
+              development team with modern technologies to improve its digital
+              platforms and deliver more seamless user experiences.
             </p>
 
-            <h3>Core Development</h3>
+            <h3>Challenge</h3>
             <p>
-              No fake products and services. The customer is king, their lives
-              and needs are the inspiration. But I must explain to you how all
-              this mistaken idea of denouncing pleasure and praising pain was
-              born and I will give you a complete account of the system, and
-              expound the actual teachings of the great explorer of the truth,
-              the master-builder of human happiness. No one rejects, dislikes,
-              or avoids pleasure itself, because it is pleasure, but because
-              those who do not know how to pursue pleasure rationally encounter
-              consequences that are extremely painful.
+              To keep pace with technological advancements, The Hindu needed to
+              equip its development team with skills in modern, scalable backend
+              technologies. The goal was to enable the team to build efficient,
+              real-time applications that could handle the growing demands of
+              digital news platforms.
             </p>
 
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>
-                At vero eos et accusamus et iusto odio dignissimos ducimus
-              </li>
-              <li>On the other hand, we denounce with righteous indignation</li>
-            </ul>
-
-            <h3>Define Your Choices</h3>
+            <h3>Solution</h3>
             <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum et dolorum fuga. Et harum quidem rerum
-              facilis est et expedita distinctio. Nam libero tempore, cum soluta
-              nobis est eligendi optio cumque nihil impedit quo minus id quod
-              maxime placeat facere possimus, omnis voluptas assumenda est,
-              omnis dolor repellendus. Temporibus autem quibusdam et aut
-              officiis debitis aut rerum necessitatibus saepe eveniet ut et
-              voluptates repudiandae sint et molestiae non recusandae. Itaque
-              earum rerum hic.
+              ShineLogics partnered with The Hindu to provide comprehensive
+              training in Node.js and Express.js, two of the most powerful
+              technologies for building fast, scalable backend applications.
+              ShineLogics designed a tailored training program for The Hindu’s
+              developers, covering key concepts such as server-side programming,
+              RESTful APIs, and dynamic content management.
             </p>
 
             <p>
-              On the other hand, we denounce with righteous indignation and
-              dislike men who are so beguiled and demoralized by the charms of
-              pleasure of the moment, so blinded by desire, that they cannot
-              foresee the pain and trouble that are bound to ensue; and equal
-              blame belongs to those who fail in their duty through weakness of
-              will, which is the same as saying through shrinking from toil and
-              pain. These cases are perfectly simple and easy to distinguish. In
-              a free hour, when our power of choice is untrammelled and when
-              nothing prevents our being able to do what we like best, every
-              pleasure is to be welcomed and every pain avoided. But in certain
-              circumstances and owing to the claims of duty or the obligations
-              of business it will frequently occur that pleasures have to be
-              repudiated and annoyances accepted. The wise man therefore always
-              holds in these matters to this.
+              To ensure practical learning, the training included the creation
+              of a mini news app, a lightweight prototype replicating real-time
+              news updates. This hands-on project allowed the team to implement
+              their newly learned skills by building an application that could
+              handle live data, display news headlines, and interact with users
+              in an intuitive way.
+            </p>
+
+            <h3>Outcome</h3>
+            <p>
+              The outcome of this partnership was a fully functional mini news
+              app built entirely by The Hindu’s development team. This app
+              served as both a training exercise and a prototype, demonstrating
+              the capabilities of Node.js and Express.js for building dynamic,
+              real-time web applications. The team’s newfound skills in backend
+              development have enabled them to create scalable and
+              high-performance digital products moving forward.
+            </p>
+
+            <p>
+              By completing this project, The Hindu's development team gained a
+              solid foundation in modern web technologies, allowing them to
+              create more efficient, scalable, and future-ready applications for
+              the evolving digital media space.
+            </p>
+
+            <p>
+              This partnership has laid the groundwork for The Hindu to continue
+              its digital transformation, equipping its teams with the tools and
+              knowledge needed to meet the challenges of the modern media
+              landscape.
             </p>
           </div>
         </div>

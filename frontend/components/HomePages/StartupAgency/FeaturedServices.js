@@ -6,43 +6,43 @@ import { Autoplay, Navigation } from "swiper/modules";
 const featuredServicesData = [
   {
     iconName: "pe-7s-filter",
-    title: "Web Development",
+    title: "Web Development & Apps Development",
     bgText: "WD",
     shortText:
-      "Empowers businesses with cutting-edge web development solutions, blending innovative design and robust functionality to build seamless, user-friendly websites.",
+      "we offer end-to-end software building, app building, and website building services tailored to your business needs. Our expert team delivers scalable, high-performance solutions that streamline operations, enhance user experience, and drive innovation. Whether it’s custom mobile apps or responsive websites, we ensure every product is optimized for performance, security, and growth.      ",
     viewDetails: "/services/service-details/",
   },
   {
     iconName: "pe-7s-display1",
-    title: "Apps Development",
-    bgText: "AD",
+    title: "IOT Development",
+    bgText: "ID",
     shortText:
-      "ShineLogics.ai specializes in app development, delivering high-performance, user-centric mobile and web applications tailored to meet diverse business needs with precision and innovation.",
-    viewDetails: "/services/service-details/",
+      "At Shinelogics, we provide innovative IoT solutions that connect devices, systems, and data to enhance decision-making and boost operational efficiency. Our custom IoT systems integrate seamlessly with your infrastructure, enabling real-time monitoring and optimization. From smart homes to industrial automation, we deliver scalable, secure, and high-performance solutions that transform your operations and keep you ahead of the competition",
+    viewDetails: "/services/iot/",
   },
   {
     iconName: "pe-7s-plugin",
     title: "Cyber Security",
     bgText: "CS",
     shortText:
-      "Ensures robust cyber security solutions, safeguarding your business with advanced threat detection, data protection, and proactive risk management strategies.",
-    viewDetails: "/services/service-details/",
+      "At Shinelogics, we offer comprehensive Cybersecurity solutions to protect your data, systems, and infrastructure from evolving threats. Using the latest protocols and proactive defenses, we ensure business continuity, regulatory compliance, and peace of mind in a rapidly changing digital landscape.",
+    viewDetails: "/services/cyberSecurity/",
   },
   {
     iconName: "pe-7s-arc",
     title: "Data Analytics",
     bgText: "DA",
     shortText:
-      "Transforms raw data into actionable insights with advanced data analytics solutions, empowering businesses to make informed decisions and drive growth.",
-    viewDetails: "/services/service-details/",
+      "At Shinelogics, we leverage AI, Data Science, and Data Analytics to drive business growth and innovation. Our solutions build advanced models and algorithms to extract valuable insights from complex data, helping you make informed decisions and predict trends. We transform raw data into actionable insights, optimizing processes and improving performance to keep your business ahead in a competitive landscape.",
+    viewDetails: "/services/dataAnalysis/",
   },
   {
     iconName: "pe-7s-diamond",
     title: "SEO Optimization",
     bgText: "SO",
     shortText:
-      "Enhances your online presence with expert SEO optimization, boosting website visibility, driving traffic, and improving search engine rankings for sustainable growth.",
-    viewDetails: "/services/service-details/",
+      "We specialize in SEO and ASO to enhance your digital visibility. Our SEO strategies improve website rankings and drive organic traffic, while our ASO services boost your app’s visibility, increasing downloads and retention. Together, we help you reach your target audience across both web and app platforms.",
+    viewDetails: "/services/seo/",
   },
   // {
   //   iconName: "pe-7s-helm",

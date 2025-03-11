@@ -53,9 +53,8 @@ const BestServices = () => {
                   <h2>Offering The Best of Services</h2>
                   <div className="bar"></div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida.
+                    Shinelogics offers top-tier services tailored to drive your
+                    business forward with innovation and excellence
                   </p>
 
                   <Image

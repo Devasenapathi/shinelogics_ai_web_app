@@ -58,8 +58,8 @@ const LatestNews = () => {
           <div className="section-title">
             <h2>Latest News</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Stay updated with the latest innovations, projects, and insights
+              from Shinelogics.
             </p>
           </div>
 

@@ -40,56 +40,99 @@ const ServiceDetailsContent = () => {
               <div className="services-details-desc">
                 <h2>Services Description</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore.
+                  At Shinelogics, we specialize in building tailored software,
+                  mobile apps, and websites to meet the unique needs of your
+                  business. From initial concept to final deployment, we deliver
+                  high-performance, scalable, and secure solutions that
+                  streamline operations, enhance user engagement, and drive
+                  innovation.
                 </p>
+                <h3>Our Services:</h3>
+                <ul>
+                  <li>
+                    Software Building: Custom, high-performance software
+                    solutions optimized for efficiency, scalability, and
+                    security to drive business growth.
+                  </li>
+                  <li>
+                    App Building: Mobile apps for iOS and Android that are
+                    user-friendly, engaging, and optimized for performance and
+                    scalability.
+                  </li>
+                  <li>
+                    Website Building: Responsive, visually appealing websites
+                    designed for an intuitive user experience and optimized for
+                    conversions.
+                  </li>
+                </ul>
+
+                <h3>Our Approach:</h3>
+
+                <ul>
+                  <li>
+                    Discovery & Consultation: We understand your goals, target
+                    audience, and technical requirements to guide development.
+                  </li>
+                  <li>
+                    Planning & Strategy: We create a tailored strategy, define
+                    the scope, set timelines, and establish milestones.
+                  </li>
+                  <li>
+                    Design & Prototyping: Our design team crafts wireframes,
+                    mockups, and prototypes that align with your brand and user
+                    journey.
+                  </li>
+                  <li>
+                    Development: Using the latest technologies, we build
+                    scalable, secure, and optimized solutions.
+                  </li>
+                  <li>
+                    Testing & QA: Thorough testing ensures your solution is
+                    reliable, secure, and ready for launch.
+                  </li>
+                  <li>
+                    Deployment & Launch: We deploy the solution and assist with
+                    adjustments for a smooth launch.
+                  </li>
+                  <li>
+                    Ongoing Support & Maintenance: Post-launch support ensures
+                    continued performance and adaptation to new needs.
+                  </li>
+                </ul>
+
+                <h3>Why Choose Shinelogics?</h3>
+
+                <ul>
+                  <li>
+                    Tailored Solutions: Custom designs to fit your business
+                    needs.
+                  </li>
+                  <li>
+                    Expert Team: Skilled developers and designers delivering
+                    high-quality results.
+                  </li>
+                  <li>
+                    End-to-End Services: From strategy to ongoing support, we
+                    handle it all.
+                  </li>
+                  <li>
+                    Performance & Security: Scalable, secure solutions optimized
+                    for growth.
+                  </li>
+                  <li>
+                    Client-Centric Approach: Close collaboration to bring your
+                    vision to life.
+                  </li>
+                </ul>
 
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                </p>
-
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you a complete account of the system, and expound the actual
-                  teachings of the great explorer of the truth, the
-                  master-builder of human happiness. No one rejects, dislikes,
-                  or avoids pleasure itself, because it is pleasure, but because
-                  those who do not know how to pursue pleasure rationally
-                  encounter.
-                </p>
-
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos
-                  dolores et quas molestias excepturi sint occaecati cupiditate
-                  non provident, similique sunt in culpa qui officia deserunt
-                  mollitia animi, id est laborum et dolorum fuga.
-                </p>
-
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos
-                  dolores et quas molestias excepturi sint occaecati cupiditate
-                  non provident, similique sunt in culpa qui officia deserunt
-                  mollitia animi, id est laborum et dolorum fuga. Et harum
-                  quidem rerum facilis est et expedita distinctio. Nam libero
-                  tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat facere possimus,
-                  omnis voluptas assumenda est, omnis.
+                  Contact us today to discuss how we can create a digital
+                  solution that drives success for your business.
                 </p>
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-12">
+            {/* <div className="col-lg-4 col-md-12">
               <div className="services-details-info">
                 <h3>Our Working Process</h3>
                 <ul>
@@ -119,7 +162,7 @@ const ServiceDetailsContent = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

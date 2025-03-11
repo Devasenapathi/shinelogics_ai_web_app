@@ -132,8 +132,8 @@ const TeamStyleFour = () => {
           <div className="section-title">
             <h2>Our Creative Team</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Meet our creative team, where innovation and expertise come
+              together to craft exceptional digital experiences.
             </p>
           </div>
 

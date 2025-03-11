@@ -5,7 +5,7 @@ const workProcessData = [
   {
     title: "Our Work Process",
     shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Our process is a collaborative and transparent journey, from understanding your needs to delivering innovative, tailored solutions that drive success.",
     image: "/images/man-with-mobile.png",
     circleImage: "/images/circle.png",
 
