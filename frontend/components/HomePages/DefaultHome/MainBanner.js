@@ -43,7 +43,7 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="100"
                     >
-                      An AI Consulting Agency
+                      Pioneering Digital Innovation
                     </span>
 
                     <h1
@@ -51,7 +51,7 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
-                      WE'RE AN AI-DRIVEN PRODUCT DEVELOPMENT COMPANY
+                      WE'RE A NEXT-GENERATION AI SOLUTIONS PROVIDER DRIVING TRANSFORMATION THROUGH CUTTING-EDGE PRODUCT DEVELOPMENT
                     </h1>
                     
                     <p
