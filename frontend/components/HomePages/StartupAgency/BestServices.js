@@ -10,33 +10,33 @@ const bestServicesData = [
   {
     image: "/images/services/service1.jpg",
     iconName: "pe-7s-magnet",
-    title: "UX Design",
+    title: "React JS",
     shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-    detailsLink: "/services/service-details/",
+      "A Popular JavaScript Library for Building User Interfaces.",
+    detailsLink: "/technology/react",
   },
   {
     image: "/images/services/service2.jpg",
     iconName: "pe-7s-vector",
-    title: "UI Design",
+    title: "Node JS",
     shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "High-Performance Backend Runtime.",
     detailsLink: "/services/service-details/",
   },
   {
     image: "/images/services/service3.jpg",
     iconName: "pe-7s-scissors",
-    title: "Digital Product Design",
+    title: "Python",
     shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "A Versatile and Powerful Programming Language.",
     detailsLink: "/services/service-details/",
   },
   {
     image: "/images/services/service4.jpg",
     iconName: "pe-7s-comment",
-    title: "Business Consultancy",
+    title: "AWS",
     shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Scalable Cloud Deployment Solutions.",
     detailsLink: "/services/service-details/",
   },
 ];

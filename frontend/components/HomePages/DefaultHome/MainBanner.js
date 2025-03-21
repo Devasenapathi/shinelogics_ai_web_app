@@ -51,7 +51,7 @@ const MainBanner = () => {
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
-                      WE'RE AN AI-DRIVEN PRODUCT DEVELOPMENT COMPANY
+                     We drive transformation with innovative AI solutions.
                     </h1>
                     
                     <p

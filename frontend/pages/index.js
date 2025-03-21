@@ -36,7 +36,7 @@ const Index = () => {
 
       <Feedback />
 
-      <Portfolio />
+      {/* <Portfolio /> */}
 
       <TeamStyleFour />
 
@@ -51,7 +51,7 @@ const Index = () => {
       </div>
 
       <div className="ptb-100">
-        <LatestNews />
+        {/* <LatestNews /> */}
       </div>
 
       <CtaAreaTwo />
