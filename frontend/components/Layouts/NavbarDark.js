@@ -41,7 +41,7 @@ const NavbarDark = () => {
     <>
       <div id="navbar" className="navbar-area dark-navbar">
         <nav className="navbar navbar-expand-md">
-        <div className="container">
+          <div className="container">
             <Link href="/" className="navbar-brand">
               <Image src={logo} alt="logo" width={150} height={40} />
             </Link>
@@ -65,233 +65,9 @@ const NavbarDark = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link
-                    href="/"
-                    className="nav-link"
-                    onClick={(e) => e.preventDefault()}
-                  >
+                  <Link href="/" className="nav-link">
                     Home
                   </Link>
-
-                  {/* <ul className="dropdown-menu mega-dropdown-menu">
-                    <li className="nav-item">
-                      <Link
-                        href="/"
-                        className={`nav-link ${currentPath == "/" && "active"}`}
-                      >
-                        Default Home
-                      </Link>
-
-                      <Link
-                        href="/creative-agency/"
-                        className={`nav-link ${
-                          currentPath == "/creative-agency/" && "active"
-                        }`}
-                      >
-                        Creative Agency
-                      </Link>
-
-                      <Link
-                        href="/it-agency/"
-                        className={`nav-link ${
-                          currentPath == "/it-agency/" && "active"
-                        }`}
-                      >
-                        IT Agency
-                      </Link>
-
-                      <Link
-                        href="/marketing-agency/"
-                        className={`nav-link ${
-                          currentPath == "/marketing-agency/" && "active"
-                        }`}
-                      >
-                        Marketing Agency
-                      </Link>
-
-                      <Link
-                        href="/portfolio-agency/"
-                        className={`nav-link ${
-                          currentPath == "/portfolio-agency/" && "active"
-                        }`}
-                      >
-                        Portfolio Agency
-                      </Link>
-
-                      <Link
-                        href="/studio-agency/"
-                        className={`nav-link ${
-                          currentPath == "/studio-agency/" && "active"
-                        }`}
-                      >
-                        Studio Agency
-                      </Link>
-
-                      <Link
-                        href="/business-agency/"
-                        className={`nav-link ${
-                          currentPath == "/business-agency/" && "active"
-                        }`}
-                      >
-                        Business Agency
-                      </Link>
-
-                      <Link
-                        href="/startup-agency/"
-                        className={`nav-link ${
-                          currentPath == "/startup-agency/" && "active"
-                        }`}
-                      >
-                        Startup Agency
-                      </Link>
-
-                      <Link
-                        href="/software-startup/"
-                        className={`nav-link ${
-                          currentPath == "/software-startup/" && "active"
-                        }`}
-                      >
-                        Software Startup <span className="new">New</span>
-                      </Link>
-
-                      <Link
-                        href="/digital-marketing/"
-                        className={`nav-link ${
-                          currentPath == "/digital-marketing/" && "active"
-                        }`}
-                      >
-                        Digital Marketing <span className="new">New</span>
-                      </Link>
-
-                      <Link
-                        href="/business-consulting/"
-                        className={`nav-link ${
-                          currentPath == "/business-consulting/" && "active"
-                        }`}
-                      >
-                        Business Consulting <span className="new">New</span>
-                      </Link>
-
-                      <Link
-                        href="/freelancer-portfolio/"
-                        className={`nav-link ${
-                          currentPath == "/freelancer-portfolio/" && "active"
-                        }`}
-                      >
-                        Freelancer Portfolio <span className="new">New</span>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/default-home-2/"
-                        className={`nav-link ${
-                          currentPath == "/default-home-2/" && "active"
-                        }`}
-                      >
-                        Default Home Two
-                      </Link>
-
-                      <Link
-                        href="/creative-agency-2/"
-                        className={`nav-link ${
-                          currentPath == "/creative-agency-2/" && "active"
-                        }`}
-                      >
-                        Creative Agency Two
-                      </Link>
-
-                      <Link
-                        href="/it-agency-2/"
-                        className={`nav-link ${
-                          currentPath == "/it-agency-2/" && "active"
-                        }`}
-                      >
-                        IT Agency Two
-                      </Link>
-
-                      <Link
-                        href="/marketing-agency-2/"
-                        className={`nav-link ${
-                          currentPath == "/marketing-agency-2/" && "active"
-                        }`}
-                      >
-                        Marketing Agency Two
-                      </Link>
-
-                      <Link
-                        href="/portfolio-agency-2/"
-                        className={`nav-link ${
-                          currentPath == "/portfolio-agency-2/" && "active"
-                        }`}
-                      >
-                        Portfolio Agency Two
-                      </Link>
-
-                      <Link
-                        href="/studio-agency-2/"
-                        className={`nav-link ${
-                          currentPath == "/studio-agency-2/" && "active"
-                        }`}
-                      >
-                        Studio Agency Two
-                      </Link>
-
-                      <Link
-                        href="/business-agency-2/"
-                        className={`nav-link ${
-                          currentPath == "/business-agency-2/" && "active"
-                        }`}
-                      >
-                        Business Agency Two
-                      </Link>
-
-                      <Link
-                        href="/startup-agency-2/"
-                        className={`nav-link ${
-                          currentPath == "/startup-agency-2/" && "active"
-                        }`}
-                      >
-                        Startup Agency Two
-                      </Link>
-
-                      <Link
-                        href="/app-showcase/"
-                        className={`nav-link ${
-                          currentPath == "/app-showcase/" && "active"
-                        }`}
-                      >
-                        App Showcase <span className="new">New</span>
-                      </Link>
-
-                      <Link
-                        href="/personal-portfolio/"
-                        className={`nav-link ${
-                          currentPath == "/personal-portfolio/" && "active"
-                        }`}
-                      >
-                        Personal Portfolio <span className="new">New</span>
-                      </Link>
-
-                      <Link
-                        href="/saas-startup/"
-                        className={`nav-link ${
-                          currentPath == "/saas-startup/" && "active"
-                        }`}
-                      >
-                        SaaS Startup <span className="new">New</span>
-                      </Link>
-
-                      <Link
-                        href="/cyber-security-agency/"
-                        className={`nav-link ${
-                          currentPath == "/cyber-security-agency/" && "active"
-                        }`}
-                      >
-                        Cyber Security Agency <span className="new">New</span>
-                      </Link>
-                    </li>
-                  </ul> */}
                 </li>
 
                 <li className="nav-item">
@@ -305,7 +81,6 @@ const NavbarDark = () => {
                   </Link>
                 </li>
 
-
                 <li className="nav-item">
                   <Link
                     href="#"
@@ -318,57 +93,57 @@ const NavbarDark = () => {
                   <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
-                        href="/services/"
+                        href="/services/service-details/"
                         className={`nav-link ${
                           currentPath == "/services/" && "active"
                         }`}
                       >
-                        Services Style 1
+                        Web & Mobile App
                       </Link>
                     </li>
 
                     <li className="nav-item">
                       <Link
-                        href="/services-2/"
+                        href="/services/iot/"
                         className={`nav-link ${
                           currentPath == "/services-2/" && "active"
                         }`}
                       >
-                        Services Style 2
+                        IOT
                       </Link>
                     </li>
 
                     <li className="nav-item">
                       <Link
-                        href="/services-3/"
+                        href="/services/cyberSecurity/"
                         className={`nav-link ${
                           currentPath == "/services-3/" && "active"
                         }`}
                       >
-                        Services Style 3
+                        Cyber Security
                       </Link>
                     </li>
 
                     <li className="nav-item">
                       <Link
-                        href="/services-4/"
+                        href="/services/dataAnalysis/"
                         className={`nav-link ${
                           currentPath == "/services-4/" && "active"
                         }`}
                       >
-                        Services Style 4
+                        Data Analytics
                       </Link>
                     </li>
 
                     <li className="nav-item">
                       <Link
-                        href="/services/service-details/"
+                        href="/services/seo/"
                         className={`nav-link ${
                           currentPath == "/services/service-details/" &&
                           "active"
                         }`}
                       >
-                        Service Details
+                        SEO
                       </Link>
                     </li>
                   </ul>
@@ -376,9 +151,10 @@ const NavbarDark = () => {
 
                 <li className="nav-item">
                   <Link
-                  href="#"
-                  className="nav-link"
-                  onClick={(e)=>e.preventDefault()}>
+                    href="#"
+                    className="nav-link"
+                    onClick={(e) => e.preventDefault()}
+                  >
                     Technology
                   </Link>
                 </li>
@@ -395,36 +171,24 @@ const NavbarDark = () => {
                   <ul className="dropdown-menu">
                     <li className="nav-item">
                       <Link
-                        href="/portfolio/"
+                        href="/portfolio/farm2bag/"
                         className={`nav-link ${
                           currentPath == "/portfolio/" && "active"
                         }`}
                       >
-                        Portfolio
+                        E-Commerce
                       </Link>
                     </li>
 
                     <li className="nav-item">
                       <Link
-                        href="/portfolio/portfolio-details/"
+                        href="/portfolio/keerthipumps/"
                         className={`nav-link ${
                           currentPath == "/portfolio/portfolio-details/" &&
                           "active"
                         }`}
                       >
-                        Portfolio Details
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link
-                        href="/portfolio/portfolio-details-2/"
-                        className={`nav-link ${
-                          currentPath == "/portfolio/portfolio-details-2/" &&
-                          "active"
-                        }`}
-                      >
-                        Portfolio Details 2
+                        ERP
                       </Link>
                     </li>
                   </ul>
@@ -432,14 +196,15 @@ const NavbarDark = () => {
 
                 <li className="nav-item">
                   <Link
-                  href="#"
-                  className="nav-link"
-                  onClick={(e)=>e.preventDefault()}>
-                  Careers
+                    href="#"
+                    className="nav-link"
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    Careers
                   </Link>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -572,7 +337,7 @@ const NavbarDark = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
                 {/* <li className="nav-item">
                   <Link

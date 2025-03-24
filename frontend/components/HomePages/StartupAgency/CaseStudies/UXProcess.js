@@ -27,7 +27,7 @@ const UXProcessData = [
     viewDetails: "/portfolio/keerthipumps/",
     aosDelay: "300",
   },
-  {
+  { 
     image: "/images/case-studies/studie4.jpg",
     shapeImage: "/images/case-studies/studie-shape4.png",
     title: "Matrimony App Development by ShineLogics",

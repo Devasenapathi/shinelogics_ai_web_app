@@ -21,7 +21,7 @@ const bestServicesData = [
     title: "Node JS",
     shortText:
       "High-Performance Backend Runtime.",
-    detailsLink: "/services/service-details/",
+    detailsLink: "/technology/node",
   },
   {
     image: "/images/services/service3.jpg",
@@ -29,7 +29,7 @@ const bestServicesData = [
     title: "Python",
     shortText:
       "A Versatile and Powerful Programming Language.",
-    detailsLink: "/services/service-details/",
+    detailsLink: "/technology/python",
   },
   {
     image: "/images/services/service4.jpg",
@@ -37,7 +37,7 @@ const bestServicesData = [
     title: "AWS",
     shortText:
       "Scalable Cloud Deployment Solutions.",
-    detailsLink: "/services/service-details/",
+    detailsLink: "/technology/aws",
   },
 ];
 

@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+import FsLightbox from "fslightbox-react";
+import Image from "next/image";
+import singleServiceImg from "../../../public/images/services/single-service.jpg";
 
 const NextServiceDetailsContent = () => {
   const [toggler, setToggler] = useState(false);
@@ -62,7 +65,7 @@ const NextServiceDetailsContent = () => {
                   </li>
                 </ul>
 
-                <h3>When to Use React.js:</h3>
+                <h3>When to Use Next.js:</h3>
 
                 <ul>
                   <li>

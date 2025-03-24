@@ -1,92 +1,98 @@
-import React from 'react'
+import React, { useState } from "react";
+import FsLightbox from "fslightbox-react";
+import Image from "next/image";
+import singleServiceImg from "../../../public/images/services/single-service.jpg";
 
 const PythonServiceDetailsContent = () => {
-    const [toggler, setToggler] = useState(false);
-    return (
-      <>
-        <FsLightbox
-          toggler={toggler}
-          sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-        />
-  
-        <div className="services-details-area ptb-100">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12 col-md-12">
-                <div className="services-details-image">
-                  <Image
-                    src={singleServiceImg}
-                    alt="image"
-                    width={1250}
-                    height={700}
-                  />
-  
-                  <div className="video-box">
-                    <div
-                      onClick={() => setToggler(!toggler)}
-                      className="video-btn"
-                    >
-                      <i className="fa-solid fa-play"></i>
-                    </div>
+  const [toggler, setToggler] = useState(false);
+  return (
+    <>
+      <FsLightbox
+        toggler={toggler}
+        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+      />
+
+      <div className="services-details-area ptb-100">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 col-md-12">
+              <div className="services-details-image">
+                <Image
+                  src={singleServiceImg}
+                  alt="image"
+                  width={1250}
+                  height={700}
+                />
+
+                <div className="video-box">
+                  <div
+                    onClick={() => setToggler(!toggler)}
+                    className="video-btn"
+                  >
+                    <i className="fa-solid fa-play"></i>
                   </div>
                 </div>
               </div>
-  
-              <div className="col-lg-8 col-md-12">
-                <div className="services-details-desc">
-                  <h2>Technology Description</h2>
-                  <p>
-                    React.js is an open-source JavaScript library developed by
-                    Facebook for building fast and interactive user interfaces,
-                    primarily for single-page applications. It allows developers
-                    to create reusable UI components and efficiently update the
-                    view when data changes.
-                  </p>
-                  <h3>Advantages:</h3>
-                  <ul>
-                    <li>
-                      <strong>Fast Rendering:</strong> Thanks to the Virtual DOM
-                      for efficient updates.
-                    </li>
-                    <li>
-                      <strong>Reusable Components:</strong> Makes development more
-                      modular and scalable.
-                    </li>
-                    <li>
-                      <strong>Strong Community:</strong> Wide support, resources,
-                      and libraries for faster development.
-                    </li>
-                    <li>
-                      <strong>SEO-Friendly:</strong> Can be used with server-side
-                      rendering to improve SEO.
-                    </li>
-                  </ul>
-  
-                  <h3>When to Use React.js:</h3>
-  
-                  <ul>
-                    <li>
-                      <strong>Building Single-Page Applications (SPAs):</strong>{" "}
-                      With dynamic content.
-                    </li>
-                    <li>
-                      <strong>Developing Interactive UIs:</strong> With real-time
-                      updates.
-                    </li>
-                    <li>
-                      <strong>Creating Modular, Scalable Applications.</strong>
-                    </li>
-                  </ul>
-  
-                  <p>
-                    React.js provides a powerful, efficient way to build modern,
-                    dynamic user interfaces. At Shinelogics, we use React.js to
-                    deliver high-performance, user-friendly web applications.
-                  </p>
-                </div>
+            </div>
+
+            <div className="col-lg-8 col-md-12">
+              <div className="services-details-desc">
+                <h2>Technology Description</h2>
+                <p>
+                  Python is a high-level, interpreted programming language known
+                  for its simplicity, readability, and versatility. It is widely
+                  used in web development, data science, machine learning,
+                  automation, and more.
+                </p>
+                <h3>Advantages:</h3>
+                <ul>
+                  <li>
+                    <strong>Fast Development:</strong> Python’s simple syntax
+                    accelerates development cycles.
+                  </li>
+                  <li>
+                    <strong>Versatility:</strong> Ideal for a wide range of
+                    applications, from web to scientific computing.
+                  </li>
+                  <li>
+                    <strong>Large Community:</strong> A strong community offers
+                    extensive support, resources, and third-party packages.
+                  </li>
+                  <li>
+                    <strong>Integration:</strong> Easily integrates with other
+                    languages and technologies.
+                  </li>
+                </ul>
+
+                <h3>When to Use React.js:</h3>
+
+                <ul>
+                  <li>
+                    <strong>Web Development:</strong> Build scalable and secure
+                    web apps using frameworks like Django and Flask.
+                  </li>
+                  <li>
+                    <strong>Data Science and Analytics:</strong> Ideal for
+                    processing and analyzing large datasets.
+                  </li>
+                  <li>
+                    <strong>Machine Learning and AI:</strong> Widely used in AI
+                    development with libraries like TensorFlow and PyTorch.
+                  </li>
+                  <li>
+                    <strong>Automation:</strong> Automate tasks and streamline
+                    workflows with Python’s simplicity.
+                  </li>
+                </ul>
+
+                <p>
+                  At Shinelogics, we use Python to develop efficient, scalable,
+                  and data-driven applications for our clients.
+                </p>
               </div>
-  
-              {/* <div className="col-lg-4 col-md-12">
+            </div>
+
+            {/* <div className="col-lg-4 col-md-12">
                 <div className="services-details-info">
                   <h3>Our Working Process</h3>
                   <ul>
@@ -117,11 +123,11 @@ const PythonServiceDetailsContent = () => {
                   </ul>
                 </div>
               </div> */}
-            </div>
           </div>
         </div>
-      </>
-    );
-}
+      </div>
+    </>
+  );
+};
 
-export default PythonServiceDetailsContent
+export default PythonServiceDetailsContent;
