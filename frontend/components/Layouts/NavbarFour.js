@@ -149,7 +149,7 @@ const NavbarFour = () => {
                   </ul>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -157,7 +157,7 @@ const NavbarFour = () => {
                   >
                     Technology
                   </Link>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <Link
@@ -194,7 +194,7 @@ const NavbarFour = () => {
                   </ul>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="#"
                     className="nav-link"
@@ -202,7 +202,7 @@ const NavbarFour = () => {
                   >
                     Careers
                   </Link>
-                </li>
+                </li> */}
 
                 {/* <li className="nav-item">
                   <Link
