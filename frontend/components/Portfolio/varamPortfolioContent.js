@@ -30,7 +30,7 @@ const varamPortfolioContent = () => {
             </div>
           </div>
 
-          <div className="service-details-info">
+          {/* <div className="service-details-info">
             <div className="single-info-box">
               <h4>Client</h4>
               <span>James Anderson</span>
@@ -77,7 +77,7 @@ const varamPortfolioContent = () => {
                 Live Preview
               </a>
             </div>
-          </div>
+          </div> */}
 
           <div className="portfolio-desc style-2">
             <h3>Client Overview</h3>
