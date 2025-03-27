@@ -11,7 +11,7 @@ const react = () => {
         <>
           <NavbarTwo />
     
-          <PageBanner pageTitle="Node JS" BGImage="/images/page-banner1.jpg" />
+          <PageBanner pageTitle="Node JS" BGImage="/images/new/nodejs.webp" />
     
           <NodeServiceDetailsContent />
     

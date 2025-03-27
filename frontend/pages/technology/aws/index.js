@@ -12,7 +12,7 @@ const react = () => {
         <>
           <NavbarTwo />
     
-          <PageBanner pageTitle="AWS" BGImage="/images/page-banner1.jpg" />
+          <PageBanner pageTitle="AWS" BGImage="/images/new/aws.webp" />
     
           <AwsServiceDetailsContent />
     

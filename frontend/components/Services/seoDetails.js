@@ -8,15 +8,15 @@ const seoDetails = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
+      {/* <FsLightbox
         toggler={toggler}
         sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      /> */}
 
       <div className="services-details-area ptb-100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12">
+            {/* <div className="col-lg-12 col-md-12">
               <div className="services-details-image">
                 <Image
                   src={singleServiceImg}
@@ -34,7 +34,7 @@ const seoDetails = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-8 col-md-12">
               <div className="services-details-desc">
@@ -167,7 +167,7 @@ const seoDetails = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-12">
+            {/* <div className="col-lg-4 col-md-12">
               <div className="services-details-info">
                 <h3>Our Working Process</h3>
                 <ul>
@@ -197,7 +197,7 @@ const seoDetails = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
