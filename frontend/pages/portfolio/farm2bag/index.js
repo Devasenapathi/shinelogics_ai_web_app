@@ -10,7 +10,7 @@ const farm2bagDetails = () => {
         <>
           <NavbarTwo />
     
-          <PageBanner pageTitle="The Farm2bag" BGImage="/images/page-banner2.jpg" />
+          <PageBanner pageTitle="The Farm2bag" BGImage="/images/new/farm2bag.webp" />
     
           <PortfolioDetailsContent />
     

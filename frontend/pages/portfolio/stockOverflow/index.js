@@ -10,7 +10,7 @@ const KeerthipumpsDetails = () => {
         <>
           <NavbarTwo />
     
-          <PageBanner pageTitle="Keerthipumps ERP" BGImage="/images/page-banner2.jpg" />
+          <PageBanner pageTitle="Stock Overflow" BGImage="/images/new/stockoverflow.webp" />
     
           <PortfolioDetailsContent />
     

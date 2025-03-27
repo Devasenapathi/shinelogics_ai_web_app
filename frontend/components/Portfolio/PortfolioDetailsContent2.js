@@ -13,7 +13,7 @@ const PortfolioDetailsContent2 = () => {
       <div className="portfolio-details ptb-100">
         <div className="container">
           <div className="row m-0">
-            <div className="col-lg-4 col-md-6 p-0">
+            {/* <div className="col-lg-4 col-md-6 p-0">
               <div className="portfolio-details-image">
                 <Image
                   src={portfolioImg1}
@@ -31,7 +31,7 @@ const PortfolioDetailsContent2 = () => {
                   height={350}
                 />
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-4 col-md-6 p-0">
               <div className="portfolio-details-image">

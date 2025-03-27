@@ -10,7 +10,7 @@ const varamDetails = () => {
         <>
           <NavbarTwo />
     
-          <PageBanner pageTitle="Varam.app" BGImage="/images/page-banner2.jpg" />
+          <PageBanner pageTitle="Varam.app" BGImage="/images/new/varam.webp" />
     
           <PortfolioDetailsContent />
     

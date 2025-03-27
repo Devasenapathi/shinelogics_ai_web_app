@@ -40,7 +40,7 @@ const UXProcessData = [
     shapeImage: "/images/case-studies/studie-shape5.png",
     title: "Inventory Management Software by ShineLogics",
     category: "Stock Overflow",
-    viewDetails: "/portfolio/portfolio-details/",
+    viewDetails: "/portfolio/stockOverflow/",
     aosDelay: "500",
   },
   {
@@ -48,7 +48,7 @@ const UXProcessData = [
     shapeImage: "/images/case-studies/studie-shape6.png",
     title: "Calorie Tracking App by ShineLogics",
     category: "Slim Track",
-    viewDetails: "/portfolio/portfolio-details/",
+    viewDetails: "/portfolio/slimTrack/",
     aosDelay: "600",
   },
 ];

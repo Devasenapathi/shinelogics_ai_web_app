@@ -15,7 +15,7 @@ const PortfolioDetailsContent = () => {
 
       <div className="portfolio-details ptb-100">
         <div className="container">
-          <div className="pd-preview-img">
+          {/* <div className="pd-preview-img">
             <Image
               src={portfolioDedailsImg}
               alt="Portfolio Img"
@@ -28,7 +28,7 @@ const PortfolioDetailsContent = () => {
                 <i className="fa-solid fa-play"></i>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="service-details-info">
             <div className="single-info-box">
